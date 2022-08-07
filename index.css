@@ -1,0 +1,55 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 550px;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Centers the content vertically using flexbox */
+#gallery {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 75vh;
+}
+
+/* Removes the bullets of the uls/lists */
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Changes the color of the section headers */
+h2 {
+	color: blue;
+}
+
+/* Adds spacing and borders to each section */
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid white;
+	margin: 20px;
+	width: 75%;
+	color: white;
+}
+
